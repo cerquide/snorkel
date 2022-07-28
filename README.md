@@ -29,7 +29,7 @@ pip install snorkel2
 
 Repackaging snorkel for the community is the main interest of this snorkel fork.  
 
-[[Give us feedback](https://github.com/cerquide/snorkel/discussions/)
+[Give us feedback](https://github.com/cerquide/snorkel/discussions/) on our github discussions page.
 
 ## Announcement
 
