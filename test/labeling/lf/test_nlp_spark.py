@@ -41,6 +41,8 @@ class TestNLPLabelingFunction(unittest.TestCase):
 
     def test_spark_nlp_labeling_function_with_nlp_labeling_function(self) -> None:
         # Do they have separate _nlp_configs?
+        if hasattr(NLPLabelingFunction, "_nlp_config"):
+            delattr(NLPLabelingFunction, "_nlp_config")
         lf = NLPLabelingFunction(name="my_lf", f=has_person_mention)
         lf_spark = SparkNLPLabelingFunction(name="my_lf_spark", f=has_person_mention)
         self.assertEqual(lf(SimpleNamespace(num=8, text="Jane Doe acted well.")), 0)

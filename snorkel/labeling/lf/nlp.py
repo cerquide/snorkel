@@ -71,6 +71,7 @@ class BaseNLPLabelingFunction(LabelingFunction):
         elif parameters != cls._nlp_config.parameters:
             raise ValueError(
                 f"{cls.__name__} already configured with different parameters: "
+                f"{parameters} which are different from "
                 f"{cls._nlp_config.parameters}"
             )
 

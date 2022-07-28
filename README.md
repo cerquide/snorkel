@@ -13,6 +13,15 @@
 
 ## Announcement
 
+** As a result of the Snorkel team focusing their efforts on Snorkel Flow, updated versions for the snorkel library which can be used together with up to date versions of tensorflow and other libraries are being delayed. We have solved this problem by repackaging snorkel into the pypi snorkel2 package. As quality control, the snorkel2 packages should run the entire set of tests for snorkel.  
+Thus, to use an up to date version of snorkel we suggest that instead of doing `pip install snorkel`, you do 
+```
+pip install snorkel2
+```
+
+## Announcement
+
+
 **The Snorkel team is now focusing their efforts on Snorkel Flow, an end-to-end AI application development platform based on the core ideas behind Snorkel—you can check it out [here](https://snorkel.ai) or [join us](www.snorkel.ai/careers) in building it!**
 
 The [Snorkel project](https://snorkel.ai/how-to-use-snorkel-to-build-ai-applications/) started at Stanford in 2015 with a simple technical bet: that it would increasingly be the **training data**, not the models, algorithms, or infrastructure, that decided whether a machine learning project succeeded or failed. Given this premise, we set out to explore the radical idea that you could bring mathematical and systems structure to the messy and often entirely manual process of training data creation and management, starting by empowering users to **programmatically label, build, and manage** training data.
