@@ -1,23 +1,35 @@
-<img src="figs/logo_01.png" width="150"/>
+<img src="https://github.com/cerquide/snorkel/blob/main/figs/logo_01.png" width="150"/>
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/snorkel)
+<!--![PyPI - Python Version](https://img.shields.io/pypi/pyversions/snorkel)
 ![PyPI](https://img.shields.io/pypi/v/snorkel)
 ![Conda](https://img.shields.io/conda/v/conda-forge/snorkel)
 [![CircleCI](https://circleci.com/gh/snorkel-team/snorkel/tree/master.svg?style=svg)](https://circleci.com/gh/snorkel-team/snorkel/tree/master)
 [![docs](https://readthedocs.org/projects/snorkel/badge/?version=master)](https://snorkel.readthedocs.io/en/master)
-[![coverage](https://codecov.io/gh/snorkel-team/snorkel/branch/master/graph/badge.svg)](https://codecov.io/gh/snorkel-team/snorkel/branch/master)
+[![coverage](https://codecov.io/gh/snorkel-team/snorkel/branch/master/graph/badge.svg)](https://codecov.io/gh/snorkel-team/snorkel/branch/master)-->
 [![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/snorkel)
 
 ***Programmatically Build and Manage Training Data***
 
 ## Announcement
 
-** As a result of the Snorkel team focusing their efforts on Snorkel Flow, updated versions for the snorkel library which can be used together with up to date versions of tensorflow and other libraries are being delayed. We have solved this problem by repackaging snorkel into the pypi snorkel2 package. As quality control, the snorkel2 packages should run the entire set of tests for snorkel.  
-Thus, to use an up to date version of snorkel we suggest that instead of doing `pip install snorkel`, you do 
+Updated versions for the snorkel library which can be used together with up to date versions of tensorflow 
+and other libraries are being delayed, as a result of the Snorkel team focusing their efforts on Snorkel Flow.
+We believe snorkel is a valuable asset for the community and we want to contribute by 
+repackaging snorkel into the pypi **snorkel2** package. 
+Thus snorkel2 is just a repackaging of snorkel (no new functionality, no new interfaces) just removing the annoying 
+upper limit requirements on the libraries that make snorkel incompatible with newer versions of tensorflow, 
+numpy, and the like.
+
+As quality control, the snorkel2 packages should run the entire set of tests for snorkel. 
+
+Thus, to use an upto date version of snorkel we suggest that instead of doing `pip install snorkel`, you do 
 ```
 pip install snorkel2
 ```
+
+Repackaging snorkel for the community is the main interest of this snorkel fork.  
+
+[![Give us feedback](https://github.com/cerquide/snorkel/discussions/)
 
 ## Announcement
 
