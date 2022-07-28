@@ -1,4 +1,4 @@
-<img src="https://github.com/cerquide/snorkel/blob/main/figs/logo_01.png" width="150"/>
+<img src="https://raw.githubusercontent.com/cerquide/snorkel/main/figs/logo_01.png" width="150"/>
 
 <!--![PyPI - Python Version](https://img.shields.io/pypi/pyversions/snorkel)
 ![PyPI](https://img.shields.io/pypi/v/snorkel)
@@ -51,8 +51,9 @@ Moving forward, we will be focusing our efforts on Snorkel Flow. We are extremel
 * [Snorkel website](https://snorkel.org)
 * [Snorkel tutorials](https://github.com/snorkel-team/snorkel-tutorials)
 * [Snorkel documentation](https://snorkel.readthedocs.io/)
-* [Snorkel community forum](https://spectrum.chat/snorkel)
+* [Snorkel2 community forum](https://github.com/cerquide/snorkel/discussions/)
 * [Snorkel mailing list](https://groups.google.com/forum/#!forum/snorkel-ml)
+* [Snorkel repackager Twitter](https://twitter.com/JCerquidesW)
 * [Snorkel Twitter](https://twitter.com/SnorkelAI)
 
 # Getting Started
