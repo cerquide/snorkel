@@ -84,7 +84,7 @@ or improvements, feel free to open a PR!
 # Discussion
 
 ## Issues
-We use [GitHub Issues](https://github.com/snorkel-team/snorkel/issues) for posting bugs and feature requests — anything code-related.
+We use [GitHub Issues](https://github.com/cerquide/snorkel/issues) for posting bugs and feature requests — anything code-related.
 Just make sure you search for related issues first and use our Issues templates.
 We may ask for contributions if a prompt fix doesn't fit into the immediate roadmap of the core development team.
 
@@ -100,11 +100,12 @@ To set up a development environment for contributing back to Snorkel, see our [c
 All PRs must pass the continuous integration tests and receive approval from a member of the Snorkel development team before they will be merged.
 
 ## Community Forum
-For broader Q&A, discussions about using Snorkel, tutorial requests, etc., use the [Snorkel community forum](https://spectrum.chat/snorkel) hosted on Spectrum.
+For broader Q&A, discussions about using Snorkel, tutorial requests, etc., use the [Snorkel2 community forum](https://github.com/cerquide/snorkel/discussions/).
 We hope this will be a venue for you to interact with other Snorkel users — please don't be shy about posting!
 
-## Announcements
+<!--## Announcements
 To stay up-to-date on Snorkel-related announcements (e.g. version releases, upcoming workshops), subscribe to the [Snorkel mailing list](https://groups.google.com/forum/#!forum/snorkel-ml). We promise to respect your inboxes — communication will be sparse!
-
+-->
 ## Twitter
-Follow us on Twitter [@SnorkelAI](https://twitter.com/SnorkelAI).
+Snorkel repackaging is done by [@JCerquidesW](https://twitter.com/JCerquidesW) with funding from [@IIIACSIC](https://twitter.com/IIIACSIC).
+Follow Snorkel on Twitter [@SnorkelAI](https://twitter.com/SnorkelAI).
