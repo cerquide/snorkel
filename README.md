@@ -12,7 +12,13 @@
 
 ## Announcement
 
-Updated versions for the snorkel library which can be used together with up to date versions of tensorflow 
+29/07/2022 As a result of @SnorkeAI quick response to the appearance of the snorkel2 library by updating the snorkel package, 
+we have proceed to remove the snorkel2 package from pypi to avoid polluting the Python ecosystem with different 
+libraries providing exactly the same code.
+
+## Announcement
+
+28/07/2022 Updated versions for the snorkel library which can be used together with up to date versions of tensorflow 
 and other libraries are being delayed, as a result of the Snorkel team focusing their efforts on Snorkel Flow.
 We believe snorkel is a valuable asset for the community and we want to contribute by 
 repackaging snorkel into the pypi **snorkel2** package. 
